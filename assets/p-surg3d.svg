@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#140B30"/><stop offset="1" stop-color="#060914"/></linearGradient>
+<linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#F59E0B"/><stop offset="1" stop-color="#EC4899"/></linearGradient>
+<radialGradient id="halo"><stop offset="0" stop-color="#EC4899" stop-opacity=".35"/><stop offset="1" stop-color="#EC4899" stop-opacity="0"/></radialGradient>
+<linearGradient id="tt" x1="0" x2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#EC4899"/></linearGradient>
+<clipPath id="fr"><rect x="2" y="2" width="596" height="296" rx="20"/></clipPath></defs>
+<style>
+.tw{animation:tw 3s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.15}50%{opacity:1}}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 20s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.bob{animation:bob 4s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.flick{transform-box:fill-box;transform-origin:50% 0;animation:flick .18s ease-in-out infinite alternate}
+@keyframes flick{from{transform:scaleY(.75);opacity:.85}to{transform:scaleY(1.15);opacity:1}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{transform:scale(1);opacity:.9}50%{transform:scale(1.25);opacity:.4}}
+.flow{stroke-dasharray:6 10;animation:flow 1.2s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-32}}
+.blink{animation:blink 1s steps(2) infinite}
+@keyframes blink{50%{opacity:0}}
+.drift{animation:drift 14s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translate(0,0)}to{transform:translate(40px,-18px)}}
+.border{stroke-dasharray:160 1700;animation:border 5s linear infinite}@keyframes border{to{stroke-dashoffset:-1860}}</style>
+<g clip-path="url(#fr)">
+<rect width="600" height="300" fill="url(#bg)"/>
+<ellipse cx="480" cy="90" rx="190" ry="150" fill="url(#halo)"/>
+<circle cx="317.4" cy="175.7" r="0.7" fill="#ffffff" opacity="0.45"/>
+<circle cx="569.3" cy="127.2" r="0.9" fill="#ffffff" class="tw" style="animation-delay:2.05s;animation-duration:2.5s"/>
+<circle cx="164.5" cy="183.2" r="0.7" fill="#FBCFE8" class="tw" style="animation-delay:0.24s;animation-duration:2.8s"/>
+<circle cx="331.2" cy="251.7" r="1.1" fill="#ffffff" opacity="0.60"/>
+<circle cx="175.2" cy="94.2" r="0.7" fill="#A5F3FC" opacity="0.58"/>
+<circle cx="343.9" cy="117.6" r="1.1" fill="#ffffff" class="tw" style="animation-delay:3.26s;animation-duration:3.7s"/>
+<circle cx="449.2" cy="243.5" r="0.9" fill="#C4B5FD" class="tw" style="animation-delay:1.13s;animation-duration:4.7s"/>
+<circle cx="475.0" cy="121.6" r="0.9" fill="#A5F3FC" opacity="0.30"/>
+<circle cx="444.6" cy="294.1" r="1.1" fill="#A5F3FC" class="tw" style="animation-delay:1.78s;animation-duration:2.4s"/>
+<circle cx="94.1" cy="93.3" r="0.9" fill="#FBCFE8" class="tw" style="animation-delay:2.10s;animation-duration:3.2s"/>
+<circle cx="136.5" cy="283.0" r="0.9" fill="#FBCFE8" opacity="0.65"/>
+<circle cx="212.5" cy="223.2" r="1.1" fill="#ffffff" class="tw" style="animation-delay:0.20s;animation-duration:3.2s"/>
+<circle cx="104.0" cy="55.8" r="1.1" fill="#ffffff" opacity="0.61"/>
+<circle cx="1.3" cy="214.3" r="0.9" fill="#FBCFE8" opacity="0.28"/>
+<circle cx="161.7" cy="150.4" r="0.5" fill="#FBCFE8" opacity="0.33"/>
+<circle cx="387.1" cy="268.4" r="0.7" fill="#A5F3FC" opacity="0.79"/>
+<circle cx="220.8" cy="244.2" r="0.7" fill="#ffffff" opacity="0.58"/>
+<circle cx="476.3" cy="79.8" r="1.1" fill="#FBCFE8" opacity="0.72"/>
+<circle cx="362.4" cy="163.0" r="1.1" fill="#ffffff" class="tw" style="animation-delay:1.85s;animation-duration:3.5s"/>
+<circle cx="235.2" cy="43.5" r="1.1" fill="#C4B5FD" opacity="0.42"/>
+<circle cx="589.6" cy="249.7" r="1.1" fill="#A5F3FC" class="tw" style="animation-delay:3.52s;animation-duration:4.9s"/>
+<circle cx="186.4" cy="200.7" r="1.1" fill="#ffffff" opacity="0.33"/>
+<circle cx="304.5" cy="92.1" r="0.5" fill="#ffffff" class="tw" style="animation-delay:0.48s;animation-duration:3.4s"/>
+<circle cx="298.8" cy="161.6" r="0.7" fill="#FBCFE8" opacity="0.45"/>
+<circle cx="64.5" cy="102.6" r="0.9" fill="#ffffff" opacity="0.27"/>
+<circle cx="183.1" cy="51.4" r="1.1" fill="#A5F3FC" class="tw" style="animation-delay:0.25s;animation-duration:2.3s"/>
+<circle cx="518.9" cy="180.5" r="0.5" fill="#ffffff" opacity="0.49"/>
+<circle cx="365.4" cy="50.1" r="1.1" fill="#C4B5FD" class="tw" style="animation-delay:1.85s;animation-duration:4.9s"/>
+<circle cx="595.2" cy="225.0" r="0.5" fill="#ffffff" opacity="0.54"/>
+<circle cx="405.2" cy="122.1" r="0.7" fill="#ffffff" opacity="0.68"/>
+<circle cx="225.5" cy="275.2" r="0.7" fill="#ffffff" opacity="0.62"/>
+<circle cx="132.7" cy="206.0" r="0.5" fill="#ffffff" opacity="0.38"/>
+<circle cx="307.0" cy="111.0" r="1.1" fill="#ffffff" opacity="0.42"/>
+<circle cx="273.0" cy="177.6" r="1.1" fill="#ffffff" class="tw" style="animation-delay:0.94s;animation-duration:2.2s"/>
+<circle cx="537.9" cy="69.8" r="0.9" fill="#A5F3FC" opacity="0.31"/>
+<circle cx="557.1" cy="168.4" r="0.7" fill="#ffffff" opacity="0.28"/>
+<circle cx="292.4" cy="213.1" r="0.9" fill="#ffffff" opacity="0.59"/>
+<circle cx="553.9" cy="114.9" r="0.9" fill="#A5F3FC" opacity="0.63"/>
+<circle cx="308.1" cy="227.3" r="1.1" fill="#ffffff" opacity="0.69"/>
+<circle cx="67.4" cy="285.7" r="1.1" fill="#ffffff" class="tw" style="animation-delay:3.78s;animation-duration:2.0s"/>
+<g transform="translate(512,96) scale(.74)"><g class="wave"><g transform="skewX(-18)"><polyline points="-84,-40.0 -70,-34.8 -56,-32.1 -42,-33.1 -28,-37.3 -14,-42.8 0,-47.0 14,-47.9 28,-45.1 42,-39.9 56,-34.7 70,-32.1 84,-33.2" fill="none" stroke="#F59E0B" stroke-opacity="0.35" stroke-width="1.3"/><polyline points="-84,-23.2 -70,-19.5 -56,-19.4 -42,-22.9 -28,-28.3 -14,-33.1 0,-35.0 14,-33.2 28,-28.5 42,-23.0 56,-19.5 70,-19.5 84,-23.0" fill="none" stroke="#F59E0B" stroke-opacity="0.43" stroke-width="1.3"/><polyline points="-84,-7.3 -70,-6.1 -56,-8.6 -42,-13.7 -28,-18.9 -14,-21.8 0,-21.1 14,-17.0 28,-11.5 42,-7.2 56,-6.1 70,-8.7 84,-13.8" fill="none" stroke="#F59E0B" stroke-opacity="0.51" stroke-width="1.3"/><polyline points="-84,7.0 -70,5.5 -56,0.9 -42,-4.5 -28,-8.3 -14,-8.7 0,-5.4 14,-0.1 28,4.8 42,7.0 56,5.4 70,0.8 84,-4.7" fill="none" stroke="#F59E0B" stroke-opacity="0.59" stroke-width="1.3"/><polyline points="-84,19.3 -70,15.4 -56,10.0 -42,5.5 -28,4.0 -14,6.4 0,11.3 14,16.6 28,19.7 42,19.2 56,15.3 70,9.8 84,5.4" fill="none" stroke="#F59E0B" stroke-opacity="0.67" stroke-width="1.3"/><polyline points="-84,29.8 -70,24.5 -56,19.5 -42,17.1 -28,18.3 -14,22.8 0,28.2 14,32.2 28,32.8 42,29.7 56,24.4 70,19.4 84,17.0" fill="none" stroke="#F59E0B" stroke-opacity="0.75" stroke-width="1.3"/><polyline points="-84,39.1 -70,33.8 -56,30.4 -42,30.6 -28,34.3 -14,39.7 0,44.3 14,46.0 28,43.9 42,39.0 56,33.6 70,30.3 84,30.6" fill="none" stroke="#F59E0B" stroke-opacity="0.83" stroke-width="1.3"/><polyline points="-84,-40.0 -84,-23.2 -84,-7.3 -84,7.0 -84,19.3 -84,29.8 -84,39.1" fill="none" stroke="#EC4899" stroke-opacity=".35" stroke-width="1"/><polyline points="-70,-34.8 -70,-19.5 -70,-6.1 -70,5.5 -70,15.4 -70,24.5 -70,33.8" fill="none" stroke="#EC4899" stroke-opacity=".35" stroke-width="1"/><polyline points="-56,-32.1 -56,-19.4 -56,-8.6 -56,0.9 -56,10.0 -56,19.5 -56,30.4" fill="none" stroke="#EC4899" stroke-opacity=".35" stroke-width="1"/><polyline points="-42,-33.1 -42,-22.9 -42,-13.7 -42,-4.5 -42,5.5 -42,17.1 -42,30.6" fill="none" stroke="#EC4899" stroke-opacity=".35" stroke-width="1"/><polyline points="-28,-37.3 -28,-28.3 -28,-18.9 -28,-8.3 -28,4.0 -28,18.3 -28,34.3" fill="none" stroke="#EC4899" stroke-opacity=".35" stroke-width="1"/><polyline points="-14,-42.8 -14,-33.1 -14,-21.8 -14,-8.7 -14,6.4 -14,22.8 -14,39.7" fill="none" stroke="#EC4899" stroke-opacity=".35" stroke-width="1"/><polyline points="0,-47.0 0,-35.0 0,-21.1 0,-5.4 0,11.3 0,28.2 0,44.3" fill="none" stroke="#EC4899" stroke-opacity=".35" stroke-width="1"/><polyline points="14,-47.9 14,-33.2 14,-17.0 14,-0.1 14,16.6 14,32.2 14,46.0" fill="none" stroke="#EC4899" stroke-opacity=".35" stroke-width="1"/><polyline points="28,-45.1 28,-28.5 28,-11.5 28,4.8 28,19.7 28,32.8 28,43.9" fill="none" stroke="#EC4899" stroke-opacity=".35" stroke-width="1"/><polyline points="42,-39.9 42,-23.0 42,-7.2 42,7.0 42,19.2 42,29.7 42,39.0" fill="none" stroke="#EC4899" stroke-opacity=".35" stroke-width="1"/><polyline points="56,-34.7 56,-19.5 56,-6.1 56,5.4 56,15.3 56,24.4 56,33.6" fill="none" stroke="#EC4899" stroke-opacity=".35" stroke-width="1"/><polyline points="70,-32.1 70,-19.5 70,-8.7 70,0.8 70,9.8 70,19.4 70,30.3" fill="none" stroke="#EC4899" stroke-opacity=".35" stroke-width="1"/><polyline points="84,-33.2 84,-23.0 84,-13.8 84,-4.7 84,5.4 84,17.0 84,30.6" fill="none" stroke="#EC4899" stroke-opacity=".35" stroke-width="1"/></g></g><circle cx="10" cy="-6" r="5" fill="#fff" class="pulse"/><style>.wave{animation:wv 4s ease-in-out infinite alternate}@keyframes wv{from{transform:scaleY(.9)}to{transform:scaleY(1.1)}}</style></g>
+<text x="28" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="27" font-weight="800" fill="url(#tt)">DynamicSurg3D</text>
+<text x="28" y="84" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#EC4899">real-time 3D surgical scene reconstruction</text>
+<text x="28" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#CBD5E1">Depth estimation and point tracking turn</text><text x="28" y="147" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#CBD5E1">monocular endoscope video into 3D. A React +</text><text x="28" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#CBD5E1">Socket.IO viewer gives surgeons live</text><text x="28" y="193" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#CBD5E1">inspection and checkpoint selection.</text>
+<g transform="translate(28,250)"><rect width="68" height="26" rx="13" fill="#F59E0B" fill-opacity=".14" stroke="#F59E0B" stroke-opacity=".55"/><text x="34" y="18" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#F1F5F9">YOLOv8</text></g><g transform="translate(104,250)"><rect width="60" height="26" rx="13" fill="#F59E0B" fill-opacity=".14" stroke="#F59E0B" stroke-opacity=".55"/><text x="30" y="18" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#F1F5F9">Depth</text></g><g transform="translate(172,250)"><rect width="60" height="26" rx="13" fill="#F59E0B" fill-opacity=".14" stroke="#F59E0B" stroke-opacity=".55"/><text x="30" y="18" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#F1F5F9">React</text></g><g transform="translate(240,250)"><rect width="90" height="26" rx="13" fill="#F59E0B" fill-opacity=".14" stroke="#F59E0B" stroke-opacity=".55"/><text x="45" y="18" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#F1F5F9">Socket.IO</text></g>
+</g>
+<rect x="2" y="2" width="596" height="296" rx="20" fill="none" stroke="url(#edge)" stroke-opacity=".35" stroke-width="1.5"/>
+<rect x="2" y="2" width="596" height="296" rx="20" fill="none" stroke="url(#edge)" stroke-width="3" stroke-linecap="round" class="border"/>
+</svg>

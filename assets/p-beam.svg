@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#140B30"/><stop offset="1" stop-color="#060914"/></linearGradient>
+<linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#F43F5E"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+<radialGradient id="halo"><stop offset="0" stop-color="#F59E0B" stop-opacity=".35"/><stop offset="1" stop-color="#F59E0B" stop-opacity="0"/></radialGradient>
+<linearGradient id="tt" x1="0" x2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+<clipPath id="fr"><rect x="2" y="2" width="596" height="296" rx="20"/></clipPath></defs>
+<style>
+.tw{animation:tw 3s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.15}50%{opacity:1}}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 20s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.bob{animation:bob 4s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.flick{transform-box:fill-box;transform-origin:50% 0;animation:flick .18s ease-in-out infinite alternate}
+@keyframes flick{from{transform:scaleY(.75);opacity:.85}to{transform:scaleY(1.15);opacity:1}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{transform:scale(1);opacity:.9}50%{transform:scale(1.25);opacity:.4}}
+.flow{stroke-dasharray:6 10;animation:flow 1.2s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-32}}
+.blink{animation:blink 1s steps(2) infinite}
+@keyframes blink{50%{opacity:0}}
+.drift{animation:drift 14s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translate(0,0)}to{transform:translate(40px,-18px)}}
+.border{stroke-dasharray:160 1700;animation:border 5s linear infinite}@keyframes border{to{stroke-dashoffset:-1860}}</style>
+<g clip-path="url(#fr)">
+<rect width="600" height="300" fill="url(#bg)"/>
+<ellipse cx="480" cy="90" rx="190" ry="150" fill="url(#halo)"/>
+<circle cx="342.2" cy="189.7" r="0.9" fill="#A5F3FC" opacity="0.74"/>
+<circle cx="545.3" cy="56.0" r="1.1" fill="#FBCFE8" class="tw" style="animation-delay:2.75s;animation-duration:3.4s"/>
+<circle cx="169.3" cy="201.9" r="0.5" fill="#ffffff" class="tw" style="animation-delay:2.07s;animation-duration:4.7s"/>
+<circle cx="445.9" cy="258.0" r="1.1" fill="#ffffff" opacity="0.56"/>
+<circle cx="408.8" cy="35.2" r="0.5" fill="#ffffff" opacity="0.41"/>
+<circle cx="128.0" cy="269.0" r="0.9" fill="#ffffff" opacity="0.67"/>
+<circle cx="307.7" cy="96.0" r="0.9" fill="#FBCFE8" opacity="0.56"/>
+<circle cx="233.4" cy="206.2" r="0.5" fill="#ffffff" opacity="0.66"/>
+<circle cx="335.8" cy="37.2" r="0.7" fill="#ffffff" class="tw" style="animation-delay:1.27s;animation-duration:2.2s"/>
+<circle cx="165.2" cy="60.9" r="0.7" fill="#C4B5FD" opacity="0.51"/>
+<circle cx="214.8" cy="161.7" r="0.9" fill="#A5F3FC" class="tw" style="animation-delay:1.92s;animation-duration:3.1s"/>
+<circle cx="468.3" cy="33.3" r="0.7" fill="#ffffff" opacity="0.60"/>
+<circle cx="433.8" cy="261.8" r="0.7" fill="#A5F3FC" opacity="0.52"/>
+<circle cx="414.5" cy="265.7" r="0.9" fill="#A5F3FC" class="tw" style="animation-delay:3.79s;animation-duration:3.2s"/>
+<circle cx="283.5" cy="186.6" r="1.1" fill="#C4B5FD" class="tw" style="animation-delay:1.59s;animation-duration:4.4s"/>
+<circle cx="195.0" cy="31.7" r="0.7" fill="#ffffff" opacity="0.41"/>
+<circle cx="374.1" cy="228.2" r="0.9" fill="#C4B5FD" class="tw" style="animation-delay:3.24s;animation-duration:4.8s"/>
+<circle cx="521.4" cy="225.1" r="1.1" fill="#FBCFE8" class="tw" style="animation-delay:2.99s;animation-duration:4.7s"/>
+<circle cx="7.7" cy="144.2" r="0.9" fill="#ffffff" opacity="0.36"/>
+<circle cx="113.2" cy="285.0" r="0.5" fill="#ffffff" opacity="0.67"/>
+<circle cx="344.2" cy="298.7" r="0.9" fill="#ffffff" opacity="0.34"/>
+<circle cx="13.9" cy="26.7" r="0.7" fill="#A5F3FC" class="tw" style="animation-delay:0.08s;animation-duration:4.3s"/>
+<circle cx="474.9" cy="68.4" r="0.5" fill="#ffffff" class="tw" style="animation-delay:3.20s;animation-duration:4.2s"/>
+<circle cx="520.2" cy="290.4" r="0.5" fill="#ffffff" opacity="0.41"/>
+<circle cx="197.4" cy="157.4" r="0.9" fill="#ffffff" class="tw" style="animation-delay:1.98s;animation-duration:3.3s"/>
+<circle cx="121.3" cy="24.6" r="0.7" fill="#ffffff" class="tw" style="animation-delay:0.69s;animation-duration:3.6s"/>
+<circle cx="82.4" cy="144.4" r="1.1" fill="#A5F3FC" class="tw" style="animation-delay:2.95s;animation-duration:2.0s"/>
+<circle cx="14.1" cy="44.7" r="0.7" fill="#ffffff" opacity="0.38"/>
+<circle cx="368.6" cy="244.6" r="1.1" fill="#A5F3FC" opacity="0.56"/>
+<circle cx="574.5" cy="80.7" r="0.5" fill="#ffffff" class="tw" style="animation-delay:3.91s;animation-duration:3.0s"/>
+<circle cx="70.2" cy="291.3" r="1.1" fill="#ffffff" class="tw" style="animation-delay:1.52s;animation-duration:4.6s"/>
+<circle cx="403.5" cy="38.7" r="0.7" fill="#C4B5FD" opacity="0.66"/>
+<circle cx="507.4" cy="149.4" r="0.7" fill="#C4B5FD" opacity="0.64"/>
+<circle cx="169.1" cy="115.4" r="0.9" fill="#C4B5FD" class="tw" style="animation-delay:2.67s;animation-duration:4.9s"/>
+<circle cx="480.7" cy="133.2" r="1.1" fill="#ffffff" class="tw" style="animation-delay:1.76s;animation-duration:2.8s"/>
+<circle cx="495.1" cy="31.1" r="0.7" fill="#C4B5FD" class="tw" style="animation-delay:3.65s;animation-duration:4.5s"/>
+<circle cx="78.9" cy="71.0" r="0.7" fill="#FBCFE8" class="tw" style="animation-delay:0.59s;animation-duration:4.7s"/>
+<circle cx="300.4" cy="238.4" r="1.1" fill="#ffffff" opacity="0.54"/>
+<circle cx="229.6" cy="176.1" r="1.1" fill="#A5F3FC" class="tw" style="animation-delay:3.41s;animation-duration:2.5s"/>
+<circle cx="588.4" cy="129.8" r="1.1" fill="#A5F3FC" opacity="0.62"/>
+<g transform="translate(512,96) scale(.74)"><rect x="-80" y="-62" width="160" height="124" rx="14" fill="#1C0A12" stroke="#F43F5E" stroke-opacity=".4"/>
+<g fill="none" stroke="#F43F5E" stroke-width="2"><circle r="34" opacity=".6"/><circle r="18"/><line x1="-50" y1="0" x2="-24" y2="0"/><line x1="24" y1="0" x2="50" y2="0"/><line x1="0" y1="-50" x2="0" y2="-24"/><line x1="0" y1="24" x2="0" y2="50"/></g>
+<circle r="6" fill="#4ADE80" class="pulse"/>
+<g stroke="#4ADE80" stroke-width="2.5" fill="none"><path d="M-22,-14 v-8 h8 M22,-14 v-8 h-8 M-22,14 v8 h8 M22,14 v8 h-8"/></g>
+<text x="-14" y="-30" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#4ADE80">beam 0.93</text>
+<rect x="-78" y="-2" width="156" height="2" fill="#F43F5E" opacity=".5" class="scanv"/>
+<style>.scanv{animation:sv 2.4s ease-in-out infinite alternate}@keyframes sv{from{transform:translateY(-56px)}to{transform:translateY(56px)}}</style></g>
+<text x="28" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="27" font-weight="800" fill="url(#tt)">FLIm Aiming-Beam Detection</text>
+<text x="28" y="84" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#F59E0B">data-centric YOLOv8 segmentation</text>
+<text x="28" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#CBD5E1">Finds the laser aiming beam in robotic-surgery</text><text x="28" y="147" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#CBD5E1">video across 40 in-vivo cases. Confidence-based</text><text x="28" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#CBD5E1">pruning hit 93% on the hardest patient,</text><text x="28" y="193" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#CBD5E1">and the full pipeline runs at 24 FPS.</text>
+<g transform="translate(28,250)"><rect width="68" height="26" rx="13" fill="#F43F5E" fill-opacity=".14" stroke="#F43F5E" stroke-opacity=".55"/><text x="34" y="18" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#F1F5F9">YOLOv8</text></g><g transform="translate(104,250)"><rect width="52" height="26" rx="13" fill="#F43F5E" fill-opacity=".14" stroke="#F43F5E" stroke-opacity=".55"/><text x="26" y="18" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#F1F5F9">ONNX</text></g><g transform="translate(164,250)"><rect width="68" height="26" rx="13" fill="#F43F5E" fill-opacity=".14" stroke="#F43F5E" stroke-opacity=".55"/><text x="34" y="18" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#F1F5F9">OpenCV</text></g><g transform="translate(240,250)"><rect width="75" height="26" rx="13" fill="#F43F5E" fill-opacity=".14" stroke="#F43F5E" stroke-opacity=".55"/><text x="38" y="18" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#F1F5F9">PyTorch</text></g>
+</g>
+<rect x="2" y="2" width="596" height="296" rx="20" fill="none" stroke="url(#edge)" stroke-opacity=".35" stroke-width="1.5"/>
+<rect x="2" y="2" width="596" height="296" rx="20" fill="none" stroke="url(#edge)" stroke-width="3" stroke-linecap="round" class="border"/>
+</svg>

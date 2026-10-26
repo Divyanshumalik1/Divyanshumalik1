@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="590" viewBox="0 0 1200 590">
+<defs><linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#130C2C"/><stop offset="1" stop-color="#070A16"/></linearGradient>
+<linearGradient id="rail" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset=".5" stop-color="#EC4899"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>
+<style>
+.tw{animation:tw 3s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.15}50%{opacity:1}}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 20s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.bob{animation:bob 4s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.flick{transform-box:fill-box;transform-origin:50% 0;animation:flick .18s ease-in-out infinite alternate}
+@keyframes flick{from{transform:scaleY(.75);opacity:.85}to{transform:scaleY(1.15);opacity:1}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{transform:scale(1);opacity:.9}50%{transform:scale(1.25);opacity:.4}}
+.flow{stroke-dasharray:6 10;animation:flow 1.2s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-32}}
+.blink{animation:blink 1s steps(2) infinite}
+@keyframes blink{50%{opacity:0}}
+.drift{animation:drift 14s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translate(0,0)}to{transform:translate(40px,-18px)}}
+.comet{animation:comet 4s ease-in-out infinite}@keyframes comet{0%{transform:translateY(0);opacity:0}10%{opacity:1}90%{opacity:1}100%{transform:translateY(500px);opacity:0}}</style>
+<rect x="68" y="50" width="4" height="500" rx="2" fill="url(#rail)" opacity=".35"/>
+<g class="comet"><circle cx="70" cy="50" r="5" fill="#fff"/><circle cx="70" cy="50" r="12" fill="#F9A8D4" opacity=".35"/></g>
+<g>
+<circle cx="70" cy="62" r="20" fill="#8B5CF6" opacity=".18" class="pulse" style="animation-delay:0.0s"/>
+<circle cx="70" cy="62" r="10" fill="#0B0620" stroke="#8B5CF6" stroke-width="3"/>
+<circle cx="70" cy="62" r="4" fill="#8B5CF6"/>
+<rect x="118" y="40" width="1060" height="160" rx="18" fill="url(#card)" stroke="#8B5CF6" stroke-opacity=".3"/>
+<rect x="118" y="40" width="5" height="160" rx="2.5" fill="#8B5CF6"/>
+<g transform="translate(146,58)"><rect width="138" height="26" rx="13" fill="#8B5CF6" fill-opacity=".15" stroke="#8B5CF6" stroke-opacity=".5"/>
+<text x="69" y="18" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" fill="#8B5CF6">MAR 2026 — NOW</text></g>
+<g transform="translate(1010,58)"><rect width="150" height="26" rx="13" fill="#ffffff" fill-opacity=".05"/>
+<circle cx="13" cy="13" r="4" fill="#10B981" class="blink"/>
+<text x="28" y="18" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1" fill="#CBD5E1">ACTIVE MISSION</text></g>
+<text x="146" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#ffffff">Amgen<tspan dx="14" font-size="17" font-weight="500" fill="#8B5CF6">AI Software Engineer II</tspan></text>
+<text x="146" y="148" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#B6BED0">Multi-agent clinical intelligence for 2,400+ users on Azure OpenAI, OpenAI Agents SDK,</text><text x="146" y="169" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#B6BED0">Azure AI Search and MCP — protocol review, cohort discovery, site feasibility, evidence analysis.</text><text x="146" y="190" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#B6BED0">Hybrid RAG with citations · FastAPI on AKS · Databricks + Delta Lake ingestion.</text>
+</g><g>
+<circle cx="70" cy="244" r="20" fill="#EC4899" opacity=".18" class="pulse" style="animation-delay:0.6s"/>
+<circle cx="70" cy="244" r="10" fill="#0B0620" stroke="#EC4899" stroke-width="3"/>
+<circle cx="70" cy="244" r="4" fill="#EC4899"/>
+<rect x="118" y="222" width="1060" height="160" rx="18" fill="url(#card)" stroke="#EC4899" stroke-opacity=".3"/>
+<rect x="118" y="222" width="5" height="160" rx="2.5" fill="#EC4899"/>
+<g transform="translate(146,240)"><rect width="178" height="26" rx="13" fill="#EC4899" fill-opacity=".15" stroke="#EC4899" stroke-opacity=".5"/>
+<text x="89" y="18" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" fill="#EC4899">JUN 2025 — MAR 2026</text></g>
+<g transform="translate(1055,240)"><rect width="105" height="26" rx="13" fill="#ffffff" fill-opacity=".05"/>
+<circle cx="13" cy="13" r="4" fill="#64748B" class=""/>
+<text x="28" y="18" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1" fill="#CBD5E1">COMPLETE</text></g>
+<text x="146" y="300" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#ffffff">Apache ResilientDB (Incubating)<tspan dx="14" font-size="17" font-weight="500" fill="#EC4899">AI Software Engineer</tspan></text>
+<text x="146" y="330" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#B6BED0">Built Nexus, a citation-grounded research assistant used across universities (~70% faster</text><text x="146" y="351" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#B6BED0">answers). Event-driven S3 · SQS · Textract ingestion, BM25 + HNSW hybrid search on OpenSearch,</text><text x="146" y="372" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#B6BED0">GPT-4.1 generation, eval-gated canary deploys on EKS, Next.js streaming UI.</text>
+</g><g>
+<circle cx="70" cy="426" r="20" fill="#22D3EE" opacity=".18" class="pulse" style="animation-delay:1.2s"/>
+<circle cx="70" cy="426" r="10" fill="#0B0620" stroke="#22D3EE" stroke-width="3"/>
+<circle cx="70" cy="426" r="4" fill="#22D3EE"/>
+<rect x="118" y="404" width="1060" height="160" rx="18" fill="url(#card)" stroke="#22D3EE" stroke-opacity=".3"/>
+<rect x="118" y="404" width="5" height="160" rx="2.5" fill="#22D3EE"/>
+<g transform="translate(146,422)"><rect width="178" height="26" rx="13" fill="#22D3EE" fill-opacity=".15" stroke="#22D3EE" stroke-opacity=".5"/>
+<text x="89" y="18" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" fill="#22D3EE">SEP 2022 — JUN 2025</text></g>
+<g transform="translate(1055,422)"><rect width="105" height="26" rx="13" fill="#ffffff" fill-opacity=".05"/>
+<circle cx="13" cy="13" r="4" fill="#64748B" class=""/>
+<text x="28" y="18" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1" fill="#CBD5E1">COMPLETE</text></g>
+<text x="146" y="482" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#ffffff">NIH Biophotonics Center · UC Davis<tspan dx="14" font-size="17" font-weight="500" fill="#22D3EE">Software Engineer — 3D &amp; Computer Vision</tspan></text>
+<text x="146" y="512" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#B6BED0">Real-time tumor visualization for robotic surgery on a $6M NIH P41 project. YOLOv8 aiming-beam</text><text x="146" y="533" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#B6BED0">segmentation at 24 FPS, and a live 4D Gaussian Splatting framework that rebuilt anatomy in</text><text x="146" y="554" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#B6BED0">34–60s instead of 10+ minutes. 3 research papers.</text>
+</g>
+</svg>
